@@ -11,7 +11,7 @@ export class AddproductService {
   private apiUrl:string;
 
   constructor(private http: HttpClient) {
-    this.apiUrl = 'https://8080-eeededbbecbbddbdadadaaadfecdffbadcfb.examlyiopb.examly.io/addProduct';
+    this.apiUrl = 'https://8080-eeededbbecbbddbdadadaaadfecdffbadcfb.examlyiopb.examly.io/admin/addProduct';
   }
 
   public save(product:Productmodel){

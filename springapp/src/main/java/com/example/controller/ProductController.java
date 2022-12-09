@@ -24,7 +24,7 @@ import com.example.model.ProductModel;
  
 
 @RestController
-@CrossOrigin(origins = "https://8081-eeededbbecbbddbdadadaaadfecdffbadcfb.examlyiopb.examly.io/")
+@CrossOrigin(origins = "https://8081-eeededbbecbbddbdadadaaadfecdffbadcfb.examlyiopb.examly.io/", allowedHeaders = "*")
 public class ProductController {
 
  
